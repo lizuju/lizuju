@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Gavin
 
-AI, robotics, and computer vision developer based in China.
+AI, robotics, and computer vision developer.
 
 I work on real-world intelligent systems, from **robot vision** and **embedded devices** to **full-stack AI applications**. I enjoy building things that are practical, reliable, and ready to deploy.
 
