@@ -1,41 +1,47 @@
-# Gavin · AI / Robotics / Computer Vision
+<div align="center">
 
-AI Agent developer focused on robotics vision, embedded devices, and full-stack AI applications.
+# Gavin Lee
 
-![Most Used Languages](assets/languages.svg)
+**AI Agent · Robotics Vision · Embedded AI**
 
-## Featured Projects
-
-| Project | Focus | Stack |
-| --- | --- | --- |
-| **AI Voice Companion Robot** | LLM + RAG + tool calling with ESP32, camera, audio, and servo control | Python, C/C++, FastAPI, MQTT |
-| **[RoboMaster Auto-Aim](https://github.com/lizuju/notos-rm-autoaim)** | armor detection, PnP pose solving, Kalman tracking, STM32 gimbal link | C++, ROS, OpenCV |
-| **AI Resume Agent** | JD matching, structured resume data, LaTeX/PDF export | Python, Flask, React |
-| **[TAAC 2026](https://github.com/lizuju/TAAC-2026)** | Tencent Ads recommendation model, Public AUC `0.830964`, Top 7% | PyTorch, Transformer |
-
-## Core Stack
-
-`Python` · `C++` · `C` · `JavaScript` · `TypeScript` · `ROS` · `OpenCV` · `PyTorch` · `YOLOv5` · `Flask` · `FastAPI` · `React` · `Vue` · `Docker` · `Linux` · `ESP32`
-
-## Contact
+I build intelligent systems that can see, reason, talk, and act on real devices.
 
 [Website](https://lizuju.github.io) · [Email](mailto:gavinxleele@gmail.com)
 
+</div>
+
 ---
 
-# Gavin · AI / 机器人 / 计算机视觉
+## About Me
 
-专注 AI Agent、机器人视觉、嵌入式设备和 AI 全栈应用。
+I'm focused on bringing AI from demos into deployable systems: robot perception, voice agents, embedded control, and full-stack AI products. I like working close to the real execution path, from C++ vision pipelines and ESP32 devices to Python backends and web interfaces.
 
-## 精选项目
+## Selected Work
 
-| 项目 | 方向 | 技术 |
-| --- | --- | --- |
-| **AI 语音陪伴机器人** | LLM、RAG、工具调用、ESP32、摄像头、音频和舵机控制 | Python, C/C++, FastAPI, MQTT |
-| **[RoboMaster 自瞄](https://github.com/lizuju/notos-rm-autoaim)** | 装甲板检测、PnP 解算、Kalman 跟踪、STM32 云台通信 | C++, ROS, OpenCV |
-| **AI 简历 Agent** | JD 匹配、结构化简历、LaTeX/PDF 导出 | Python, Flask, React |
-| **[TAAC 2026](https://github.com/lizuju/TAAC-2026)** | 腾讯广告推荐模型，Public AUC `0.830964`，Top 7% | PyTorch, Transformer |
+**AI Voice Companion Robot**
 
-## 联系我
+Cloud + device-side AI Agent system with speech, vision, LLM interaction, RAG, tool calling, and servo control.
 
-[个人网站](https://lizuju.github.io) · [邮箱](mailto:gavinxleele@gmail.com)
+**[RoboMaster Auto-Aim Vision](https://github.com/lizuju/notos-rm-autoaim)**
+
+Real-time armor detection, PnP pose solving, Kalman tracking, and MiniPC-to-STM32 gimbal communication.
+
+**AI Resume Agent**
+
+Agentic resume generation platform with JD matching, structured resume data, LaTeX rendering, PDF export, and subscription flow.
+
+**[TAAC 2026 Recommendation Model](https://github.com/lizuju/TAAC-2026)**
+
+Tencent Ads recommendation model. Improved Public AUC from `0.806617` to `0.830964`, ranking **Top 7%**.
+
+## Tech I Use
+
+`Python` · `C++` · `C` · `ROS` · `OpenCV` · `PyTorch` · `YOLOv5` · `FastAPI` · `Flask` · `React` · `Vue` · `Docker` · `Linux` · `ESP32`
+
+---
+
+<div align="center">
+
+中文介绍：我主要做 AI Agent、机器人视觉、嵌入式设备和 AI 全栈应用，关注能真正部署到真实场景里的智能系统。
+
+</div>
