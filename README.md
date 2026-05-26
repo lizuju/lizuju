@@ -18,14 +18,20 @@ I build practical AI systems that can see, talk, reason, and control real device
 
 | Project | What It Does | Stack |
 | --- | --- | --- |
-| **AI Voice Companion Robot**<br/>AI 语音陪伴机器人 | Cloud + device-side voice agent with LLM, RAG, tool calling, audio streaming, camera, and servo control.<br/>云端 + 设备端语音 Agent，连接大模型、工具调用、音频流、摄像头和舵机动作。 | Python, C/C++, ESP32, FastAPI, MQTT |
-| **[RoboMaster Auto-Aim](https://github.com/lizuju/notos-rm-autoaim)**<br/>RoboMaster 自瞄视觉 | Real-time armor detection, PnP pose solving, Kalman tracking, and STM32 gimbal communication.<br/>实时装甲板检测、PnP 位姿解算、Kalman 跟踪和 STM32 云台通信。 | C++, ROS, OpenCV |
-| **AI Resume Agent**<br/>AI 简历 Agent | JD matching, structured resume data, LaTeX rendering, PDF export, and subscription flow.<br/>支持 JD 匹配、结构化简历、LaTeX 渲染、PDF 导出和订阅流程。 | Python, Flask, React, PostgreSQL |
-| **[TAAC 2026](https://github.com/lizuju/TAAC-2026)**<br/>腾讯广告算法大赛 | Recommendation model with Public AUC `0.830964`, ranking **Top 7%**.<br/>广告推荐模型，Public AUC `0.830964`，排名 **Top 7%**。 | PyTorch, Transformer, Feature Engineering |
+| **AI Voice Companion Robot**<br/>AI 语音陪伴机器人 | Cloud-edge voice agent with LLM reasoning, RAG, tool calling, streaming audio, camera, and servo actions.<br/>云边协同语音 Agent，连接大模型推理、RAG、工具调用、流式音频、摄像头和舵机动作。 | Agent Workflow, RAG, MCP Tools, ASR/TTS/VAD, ESP32 |
+| **[RoboMaster Auto-Aim](https://github.com/lizuju/notos-rm-autoaim)**<br/>RoboMaster 自瞄视觉 | Real-time armor detection, pose solving, target tracking, ballistic compensation, and STM32 gimbal control.<br/>实时装甲板检测、位姿解算、目标跟踪、弹道补偿和 STM32 云台控制。 | C++, ROS, OpenCV, PnP, Kalman Filter |
+| **[TAAC 2026](https://github.com/lizuju/TAAC-2026)**<br/>腾讯广告算法大赛 | Advertising recommendation model with Public AUC `0.830964`, ranking **Top 7%**.<br/>广告推荐模型，Public AUC `0.830964`，排名 **Top 7%**。 | PyTorch, Transformer, CTR/CVR, Feature Engineering |
+| **Vision Retrieval System**<br/>视觉语义检索系统 | YOLOv5 detection with CLIP embeddings and Milvus vector search for extensible object recognition.<br/>基于 YOLOv5、CLIP Embedding 和 Milvus 向量检索实现可扩展目标识别。 | YOLOv5, CLIP, Milvus, Vector Search |
 
-## Toolbox · 技术栈
+## Advanced Stack · 核心技术栈
 
-`Python` · `C++` · `C` · `ROS` · `OpenCV` · `PyTorch` · `YOLOv5` · `FastAPI` · `Flask` · `React` · `Vue` · `Docker` · `Linux` · `ESP32`
+`Agent Workflow` · `RAG` · `Function Calling / MCP Tools` · `Structured Output` · `ASR/TTS/VAD` · `WebSocket / MQTT`
+
+`ROS` · `OpenCV` · `PnP Pose Estimation` · `Camera Calibration` · `Kalman Filter` · `Multi-sensor Fusion`
+
+`PyTorch` · `Transformer` · `CTR/CVR Modeling` · `Focal Loss` · `YOLOv5` · `CLIP` · `Milvus / Vector Search`
+
+`C++` · `Python` · `ESP32` · `Linux` · `CUDA` · `Docker`
 
 ---
 
